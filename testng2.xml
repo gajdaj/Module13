@@ -1,0 +1,24 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Yahoo" parallel="false">\
+
+  <test name="Yahoo Mail Test">
+    <classes>
+      <class name="testng.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Yahoo Send Test">
+    <classes>
+      <class name="testng.YahooTest"/>
+    </classes>
+  </test> <!-- Test -->
+      <test name="Yahoo Reg Test">
+    <classes>
+      <class name="testng.YahooRegTest"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

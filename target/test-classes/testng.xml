@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Yahoo" parallel="false">
+	<listeners>
+		<listener class-name="testnglistener.CustomListener" />
+	</listeners>
+
+	<test name="Login R">
+		<classes>
+			<class name="testnglistener.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

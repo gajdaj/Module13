@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <listeners>
+    <listener class-name="testnglistener.CustomListener"/>
+  </listeners>
+  <test name="Login R(failed)">
+    <classes>
+      <class name="testnglistener.LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testnglistener.LoginTest -->
+    </classes>
+  </test> <!-- Login R(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="29" started-at="2015-02-21T18:46:01Z" finished-at="2015-02-21T18:46:01Z">
+    <groups>
+    </groups>
+    <test name="Login R" duration-ms="29" started-at="2015-02-21T18:46:01Z" finished-at="2015-02-21T18:46:01Z">
+      <class name="testnglistener.LoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:testnglistener.LoginTest@d7b1517]" name="login" duration-ms="12" started-at="2015-02-21T19:46:01Z" finished-at="2015-02-21T19:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginAdmin()[pri:0, instance:testnglistener.LoginTest@d7b1517]" name="loginAdmin" duration-ms="0" started-at="2015-02-21T19:46:01Z" finished-at="2015-02-21T19:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+      </class> <!-- testnglistener.LoginTest -->
+    </test> <!-- Login R -->
+  </suite> <!-- Yahoo -->
+</testng-results>
